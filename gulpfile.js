@@ -41,7 +41,7 @@ gulp.task('default', (cb) => {
 	});
 	// SERVE BACKEND
 	nodemon({
-	 script: 'server.js',
+	 script: 'server.cjs',
 	 env: { 'NODE_ENV': 'development'}
  });
  // SERVE  FRONT END WITH PROXY TO BACKEND

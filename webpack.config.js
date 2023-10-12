@@ -8,8 +8,8 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = env => {
 	return {
 		entry: {
-			App: './src/index.js',
-			main: './src/main.js'
+			App: './src/App.jsx',
+			main: './src/main.jsx'
 		},
 		output: {
 			path: path.resolve(__dirname, 'public/js/dist'),
@@ -26,6 +26,11 @@ module.exports = env => {
 				},
 				{
 					test: /\.js$/,
+					exclude: /node_modules/,
+					use: ['babel-loader']
+				},
+				{
+					test: /\.jsx$/,
 					exclude: /node_modules/,
 					use: ['babel-loader']
 				},
