@@ -44,13 +44,15 @@ const NavBar = props => {
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _PlayingField_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PlayingField.module.scss */ "./src/components/PlayingField/PlayingField.module.scss");
+Object(function webpackMissingModule() { var e = new Error("Cannot find module 'react-bootstrap'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 /* provided dependency */ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 
+
 function PlayingField() {
-  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", null, "Paddles like a what??"), /*#__PURE__*/React.createElement("container", {
-    className: _PlayingField_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].boundary
-  }));
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", null, "Paddles like a what??"), /*#__PURE__*/React.createElement("div", {
+    className: _PlayingField_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].container
+  }, /*#__PURE__*/React.createElement(Object(function webpackMissingModule() { var e = new Error("Cannot find module 'react-bootstrap'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), null)));
 }
 
 /***/ }),
@@ -265,7 +267,7 @@ const routes = [{
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"boundary":"QPdTvoQT8mJTXIstwYuA"});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"container":"p2kr7xqbq8zjHzckSl1u","Box":"nMnTow2lwUM5x8DmKteL"});
 
 /***/ }),
 
@@ -493,4 +495,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.4fec098ef461d247f97715fb77b5ed38.js.map
+//# sourceMappingURL=App.b4d825796e26b92845add14a85e2b335.js.map

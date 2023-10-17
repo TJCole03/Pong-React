@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import styles from './PlayingField.module.scss'
+import { Box } from 'react-bootstrap'
 
 export default function PlayingField() {
     
@@ -7,9 +8,9 @@ export default function PlayingField() {
         <>
         <h1>Paddles like a what??</h1>
         {/* actual boundary lines for ball */}
-        <container className={styles.boundary}>
-               
-        </container>
+        <div className={styles.container}>
+               <Box />
+        </div>
         </>
     )
 }

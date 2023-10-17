@@ -1,7 +1,13 @@
-.boundary {
+.container {
     display: flex;
     height: 100%; 
     width: 100%;
     border-style: dotted;
     border-color: white; 
 } 
+
+.Box{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
