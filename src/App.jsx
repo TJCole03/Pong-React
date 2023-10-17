@@ -1,14 +1,14 @@
-// import { Ball } from '.components/Ball.jsx'
-// import { Paddle } from '.componenets/Paddle.jsx'
-import { PlayingField } from './components/PlayingField/PlayingField'
-//import { NavBar } from './components/NavBar'
-// import Play from './pages/Play'
+import { useState } from 'react'
+import Play from './pages/Play'
+import Ball from './components/Ball/Ball'
+import Paddle from './components/Paddles/Paddle'
+import PlayingField from './components/PlayingField/PlayingField'
 function App() {
     return (
     <>
-        {/* <Play />
+        <Play />
         <Ball />
-        <Paddle /> */}
+        <Paddle /> 
         <PlayingField /> 
     </>
     )

@@ -11,15 +11,14 @@
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-Object(function webpackMissingModule() { var e = new Error("Cannot find module './components/PlayingField/PlayingField'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 /* provided dependency */ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 // import { Ball } from '.components/Ball.jsx'
 // import { Paddle } from '.componenets/Paddle.jsx'
-
+// import  PlayingField  from '../PlayingField/PlayingField'
 //import { NavBar } from './components/NavBar'
 // import Play from './pages/Play'
 function App() {
-  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Object(function webpackMissingModule() { var e = new Error("Cannot find module './components/PlayingField/PlayingField'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), null));
+  return /*#__PURE__*/React.createElement(React.Fragment, null);
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
 
@@ -217,4 +216,4 @@ react__WEBPACK_IMPORTED_MODULE_0___default().createRoot(document.getElementById(
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=main.e0a3268d47f635c4462b2d550c308320.js.map
+//# sourceMappingURL=main.d3cb8dfbd06778a0760a0268f4add5f0.js.map

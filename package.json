@@ -5,7 +5,7 @@
   "name": "big-poppa-code-react-starter-kit",
   "version": "0.1.0",
   "description": "A way for people to start a react project and not be locked into create react app",
-  "main": "server.js",
+  "main": "server.cjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp build && gulp styles",
